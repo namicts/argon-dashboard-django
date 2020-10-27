@@ -1,0 +1,20 @@
+      {% load footer_extras %}
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="row align-items-center justify-content-xl-between">
+          <div class="col-xl-6">
+            <div class="text-center text-xl-left text-muted ml-1">
+              <a target="_blank" 
+                 href="{% company_link %}" 
+                 class="font-weight-bold ml-1">{% company_name %}</a>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="text-center text-xl-right text-muted mr-1">
+              <a href="https://www.creative-tim.com" 
+                 class="font-weight-bold ml-1" target="_blank"> &copy; {% copyright %}</a> 
+                 - coded by <a target="_blank" href="https://appseed.us?ref=ct-demo">{% coded_by %}</a>.
+            </div>
+          </div>
+        </div>
+      </footer>

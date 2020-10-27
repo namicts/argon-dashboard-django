@@ -14,6 +14,9 @@ from django import template
 def index(request):
     return render(request, "index.html")
 
+def samples(request):
+    return render(request, "samples.html")
+
 @login_required(login_url="/login/")
 def pages(request):
     context = {}
